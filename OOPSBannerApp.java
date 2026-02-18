@@ -1,12 +1,21 @@
 /** 
- * UC1 OOPS Banner Display Application
- * Displays OOPS to the console
+* OOPSBannerApp UC2- Banner Display Application
+* Demonstrates the creation of visual banner of the word "OOPS" using asterisks
 * @author developer
-* @version 1.0
+* @version 2.0
 **/
 import java.util.*;
-public class OOPSBannerApp{
+public class UC2{
 	public static void main(String[] args){
-		System.out.print("OOPS");
-}
+		// Each line corresponds to a row in the banner for letters O,O,P,S
+		System.out.println("   ***    "+" "+"   ***    "+" "+"******   "+" "+"    ****");
+		System.out.println(" **   **  "+" "+" **   **  "+" "+"**   **  "+" "+"  **");
+		System.out.println("**     ** "+" "+"**     ** "+" "+"**    ** "+" "+" **");
+		System.out.println("**     ** "+" "+"**     ** "+" "+"**     **"+" "+"  **");
+		System.out.println("**     ** "+" "+"**     ** "+" "+"**    ** "+" "+"   ***");
+		System.out.println("**     ** "+" "+"**     ** "+" "+"**   **  "+" "+"      **");
+		System.out.println("**     ** "+" "+"**     ** "+" "+"******   "+" "+"       **");
+		System.out.println(" **   **  "+" "+" **   **  "+" "+"**       "+" "+"     **");
+		System.out.println("   ***    "+" "+"   ***    "+" "+"**       "+" "+" ****");
+	}
 }
